@@ -1,0 +1,75 @@
+{
+  "name": "react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@web3auth/default-evm-adapter": "^8.0.1",
+    "@web3auth/ethereum-provider": "^8.0.1",
+    "@web3auth/metamask-adapter": "^8.0.1",
+    "@web3auth/modal": "^8.0.1",
+    "@web3auth/openlogin-adapter": "^8.0.1",
+    "@web3auth/wallet-services-plugin": "^8.0.1",
+    "crypto-es": "^2.1.0",
+    "crypto-js": "^4.2.0",
+    "ethers": "^6.11.1",
+    "node-polyfill-webpack-plugin": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.11",
+    "styled-reset": "^4.4.2",
+    "web-vitals": "^2.1.4",
+    "web3": "^4.7.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "assert": "^2.1.0",
+    "babel-plugin-styled-components": "^2.0.7",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "customize-cra": "^1.0.0",
+    "https-browserify": "^1.0.0",
+    "msw": "^0.47.4",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tailwindcss": "^3.4.3",
+    "url": "^0.11.3"
+  },
+  "browser": {
+    "crypto": false
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}

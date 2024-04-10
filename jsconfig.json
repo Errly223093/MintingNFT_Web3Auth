@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@assets/*": ["./src/assets/*"],
+      "crypto": ["node_modules/crypto-js"]
+    }
+  },
+  "exclude": ["node_modules", "build"]
+}

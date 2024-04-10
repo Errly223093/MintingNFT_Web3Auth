@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("./fonts/Font.css");
+.my-custom-font {
+  font-family: "Nico Moji", sans-serif;
+}
