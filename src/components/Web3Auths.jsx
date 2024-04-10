@@ -82,6 +82,11 @@ function Web3Auths() {
 
   // NFT 민팅 => 컨트랙트 call
   const mintNFT = async () => {
+    if (!loggedIn) {
+      alert("소셜 로그인을 먼저 진행해주세요!");
+      return;
+    }
+
     setIsSendingETH(true);
     setIsModalOpen(true);
     setIsMintingComplete(false);
